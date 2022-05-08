@@ -1,0 +1,22 @@
+.container {
+    border: 2px solid black;
+    background: rgb(109, 109, 109);
+    
+    display: flex;
+    height: 500px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container > * {
+    border: 2px solid red;
+    background: rgb(202, 110, 110);
+}
+
+.diferente {
+    font-size: 1.05em;
+    background-color: rgb(109, 109, 180);
+    border: 2px solid blue;
+
+    align-self: stretch;
+}
